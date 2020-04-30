@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhengqing.modules.crowdsourcing.mapper.DriverOrderMapper">
+	<resultMap id="BaseResultMap" type="com.zhengqing.modules.crowdsourcing.entity.DriverOrder">
+		<!--
+          WARNING - @mbg.generated
+        -->
+		<id column="id" jdbcType="INTEGER" property="id" />
+		<id column="user_id" jdbcType="INTEGER" property="userId" />
+		<result column="start_point" jdbcType="VARCHAR" property="startPoint" />
+		<result column="end_point" jdbcType="VARCHAR" property="endPoint" />
+		<result column="start_lat" jdbcType="DOUBLE" property="startLat" />
+		<result column="start_lon" jdbcType="DOUBLE" property="startLon" />
+		<result column="end_lat" jdbcType="DOUBLE" property="endLat" />
+		<result column="end_lon" jdbcType="DOUBLE" property="endLon" />
+		<result column="start_time" jdbcType="DATE" property="startTime" />
+		<result column="end_time" jdbcType="DATE" property="endTime" />
+		<result column="create_time" jdbcType="DATE" property="createTime" />
+		<result column="task_details" jdbcType="VARCHAR" property="taskDetails" />
+		<result column="effective" jdbcType="BIT" property="effective" />
+	</resultMap>
+</mapper>

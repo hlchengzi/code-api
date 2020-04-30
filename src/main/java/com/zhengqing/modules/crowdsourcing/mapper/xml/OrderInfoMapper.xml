@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhengqing.modules.crowdsourcing.mapper.OrderInfoMapper">
+    <resultMap id="BaseResultMap" type="com.zhengqing.modules.crowdsourcing.entity.OrderInfo">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <result column="id" jdbcType="INTEGER" property="id" />
+        <result column="driver_id" jdbcType="INTEGER" property="driverId" />
+        <result column="passenger_id" jdbcType="INTEGER" property="passengerId" />
+        <result column="order_confirm_time" jdbcType="DATE" property="orderConfirmTime" />
+        <result column="order_start_time" jdbcType="DATE" property="orderStartTime" />
+        <result column="order_end_time" jdbcType="DATE" property="orderEndTime" />
+        <result column="effective_user" jdbcType="BIT" property="effectiveUser" />
+        <result column="effective_passenger" jdbcType="BIT" property="effectivePassenger" />
+    </resultMap>
+</mapper>
